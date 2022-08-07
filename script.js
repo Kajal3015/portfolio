@@ -3,7 +3,7 @@ let skill=document.getElementById("skill");
 let pro=document.getElementById("pro");
 let contact= document.getElementById("contact");
 let education=document.querySelector(".Education");
-let projects=document.querySelector(".projects");
+let projects=document.querySelector(".project");
 let skills=document.querySelector(".skills");
 let cont=document.querySelector(".contact")
 let a=false;
@@ -36,7 +36,7 @@ pro.addEventListener("click",function(){
         projects.style.display="none";
         c=false;
      }else{
-        projects.style.display="none";
+        projects.style.display="inline-block";
          c=true;
      }
 })
